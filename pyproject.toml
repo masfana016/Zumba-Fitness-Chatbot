@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-poetry-huggingface"
+version = "0.1.0"
+description = ""
+authors = ["masfana016 <masfanasrullahansari123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain-openai = "^0.1.23"
+langchain-core = "^0.2.36"
+langchain-community = "^0.2.14"
+langchain-huggingface = "^0.0.3"
+python-dotenv = "^1.0.1"
+langchain-google-genai = "^1.0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
